@@ -74,7 +74,7 @@ metadata:
     service.beta.kubernetes.io/aws-load-balancer-access-log-enabled: "true"
     service.beta.kubernetes.io/aws-load-balancer-access-log-s3-bucket-name: eols-nonprod-logging-255310279045-us-east-1
     service.beta.kubernetes.io/aws-load-balancer-access-log-s3-bucket-prefix: eols-eks-prodcopy/stage/isolation-proxy/external-ingress
-    service.beta.kubernetes.io/aws-load-balancer-additional-resource-tags: kubernetes.io/cluster/eols-eks-prodcopy=owned,
+    service.beta.kubernetes.io/aws-load-balancer-additional-resource-tags: kubernetes.io/cluster/eols-eks-prodcopy=owned,e
       Product=eols, Environment=stage, SubProduct=isolation-proxy, Role=isolation-proxy_loadbalancer,
       Orchestration=kubernetes, Name=eols.stage.isolation-proxy_loadbalancer.external_ingress,
       Description=external_ingress, CostCode=21708, Contact=j.gudknecht@elsevier.com,
